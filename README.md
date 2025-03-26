@@ -1,6 +1,3 @@
 # DEV_WEBIOS_2025_01
 
-ola mundo
-keopi
-
-abure bure
+dsenvolvimento web 2025 turma n2 primeiro semestre
