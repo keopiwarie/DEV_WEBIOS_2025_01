@@ -3,31 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>tabelas</title>
+    <title>html 05 | tabelas</title>
 </head>
 <body>
     
 <!-- tr: linhas td: colunas -->
+<div>
     <table>
-        <tr>
-            <td>alimentos</td>
-            <td>higiene</td>
-            <td>limpeza</td>
-            <td>outros</td>
-        </tr>
-        <tr>
-            <td>pão</td>
-            <td>esfoliante</td>
-            <td>candida</td>
-            <td>luminaria</td>
-        </tr>
-        <tr>
-            <td>abobrinha</td>
-            <td>sabonete</td>
-            <td>pano de chão</td>
-            <td>centrifuga</td>
-        </tr>
+        <div 1>
+            <tr>
+                <td>alimentos</td>
+                <td>higiene</td>
+                <td>limpeza</td>
+                <td>outros</td>
+            </tr>
+        </div>
+
+        <div 2>
+            <tr>
+                <td>pão</td>
+                <td>esfoliante</td>
+                <td>candida</td>
+                <td>luminaria</td>
+            </tr>
+        </div>
+
+        <div 3>
+            <tr>
+                <td>abobrinha</td>
+                <td>sabonete</td>
+                <td>pano de chão</td>
+                <td>centrifuga</td>
+            </tr>
+        </div>
+
     </table>
+</div><br>
+
+<!-- rowspan e colspan -->
+<div> 
+    <table>
+            <tr> <th rowspan="7">itens</th>
+                <th>verdura</th>
+                <th>limpeza</th>
+                <th>fruta</th>
+            </tr>
+    
+            <tr>
+                <td>repolho</td>
+                <td>candida</td>
+                <td>tomate</td>
+            </tr>
+    
+            <tr>
+                <td>almerão</td>
+                <td>desinfetante</td>
+                <td>laranja</td>
+            </tr>
+    
+            <tr>
+                <td>rucula</td>
+                <td>alcool 70</td>
+                <td>banana</td>
+            </tr>
+    
+            <tr>
+                <td>couve</td>
+                <td>sabão</td>
+                <td>abacate</td>
+            </tr>
+    
+            <tr>
+                <td>espinafre</td>
+                <td>diabo verde</td>
+                <td>morango</td>
+            </tr>
+    
+            <tr>
+                <td>alface</td>
+                <td>cloro</td>
+                <td>maracuja</td>
+            </tr>
+    
+            <tr>
+                <td>total</td> <td colspan="3">mt caro mermão</td>
+            </tr>
+        </table>
+    </div>
 
 </body>
 </html>
