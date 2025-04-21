@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML 06 | Exercicio</title>
+</head>
+<body>
+  <h1>Formulário de Informações da Empresa</h1>
+  <form action="#" method="post">
+    
+    <label for="empresa">Nome da Empresa:</label><br>
+    <input type="text" id="empresa" name="empresa" required><br><br>
+
+    <label for="dataEntrada">Data de Entrada:</label><br>
+    <input type="date" id="dataEntrada" name="dataEntrada" required><br><br>
+
+    <label for="quantidadeFuncionarios">Quantidade de Funcionários:</label><br>
+    <input type="number" id="quantidadeFuncionarios" name="quantidadeFuncionarios" required><br><br>
+
+    <label for="salario">Salário:</label><br>
+    <input type="number" id="salario" name="salario" step="0.01" required><br><br>
+
+    <p>Está atualmente na empresa?</p>
+    <input type="radio" id="simEmpresa" name="aindaNaEmpresa" value="Sim" required>
+    <label for="simEmpresa">Sim</label><br>
+    <input type="radio" id="naoEmpresa" name="aindaNaEmpresa" value="Não">
+    <label for="naoEmpresa">Não</label><br><br>
+
+    <p>Tipo de contratação:</p>
+    <input type="radio" id="clt" name="tipoContrato" value="CLT" required>
+    <label for="clt">CLT</label><br>
+    <input type="radio" id="pj" name="tipoContrato" value="PJ">
+    <label for="pj">PJ</label><br><br>
+
+    <label for="beneficios">Quais benefícios você recebe?</label><br>
+    <select id="beneficios" name="beneficios[]" multiple size="8" required>
+      <option value="Vale refeição">Vale refeição</option>
+      <option value="Vale alimentação">Vale alimentação</option>
+      <option value="Vale transporte">Vale transporte</option>
+      <option value="Academias">Academias</option>
+      <option value="PLR">PLR</option>
+      <option value="Plano de saúde">Plano de saúde</option>
+      <option value="Plano odontológico">Plano odontológico</option>
+      <option value="Cesta básica">Cesta básica</option>
+      <option value="Day off">Day off</option>
+      <option value="Bolsa de estudos">Bolsa de estudos</option>
+      <option value="Licença maternidade/paternidade">Licença maternidade/paternidade</option>
+      <option value="Pet friendly">Pet friendly</option>
+      <option value="Empréstimo consignado">Empréstimo consignado</option>
+    </select><br><br>
+
+    <label for="pros">Prós da Empresa:</label><br>
+    <textarea id="pros" name="pros" rows="4" cols="50" required></textarea><br><br>
+
+    <label for="contras">Contras da Empresa:</label><br>
+    <textarea id="contras" name="contras" rows="4" cols="50" required></textarea><br><br>
+
+    <button type="submit">Enviar</button>
+  </form>
+</body>
+</html>
