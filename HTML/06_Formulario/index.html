@@ -8,73 +8,94 @@
 </head>
 
 <body>
-    <div form>
-        <form action="">
-            <div placeholder>
-                <label for="">nome</label><br>
-                <input type="text">
-            </div><br>
+    <form action="./boasVindas.html" target="_blank">
 
-            <div radio>
-                <label for="">onde voce mora?</label><br>
+        <fieldset>
+            <legend>Nome:</legend>
+            <label for="">nome</label>
+            <input type="text" required>
+        </fieldset><br>
 
-                <input type="radio" name="radio">
-                <label for="">são paulo</label><br>
+        <!-- caixa de seleções -->
+        <fieldset>
+            <legend>Região:</legend>
+            <input type="radio" name="radio">
+            <label for="">Mondstad</label><br>
 
-                <input type="radio" name="radio">
-                <label for="">grande são paulo</label><br>
-                
-                <input type="radio" name="radio">
-                <label for="">abc paulista</label>
-            </div><br>
+            <input type="radio" name="radio">
+            <label for="">Liyue</label><br>
 
-            <div checkbox>
-                <label for="">qual o melhor</label><br>
+            <input type="radio" name="radio">
+            <label for="">Inazuma</label><br>
 
-                <input type="checkbox">
-                <label for="">empada</label><br>
+            <input type="radio" name="radio">
+            <label for="">Fontaine</label>
+        </fieldset><br>
 
-                <input type="checkbox">
-                <label for="">pão</label><br>
+        <!-- checkbox - caixa de multiplas seleçoes -->
+        <fieldset>
+            <legend>Visão</legend>
+            <input type="checkbox">
+            <label for="">Anemo</label><br>
 
-                <input type="checkbox">
-                <label for="">torta</label><br>
+            <input type="checkbox">
+            <label for="">Geo</label><br>
 
-                <input type="checkbox">
-                <label for="">muse</label>
-            </div><br>
+            <input type="checkbox">
+            <label for="">Eletro</label><br>
 
-            <div range>
-                0km<input type="range">100km
-            </div><br>
+            <input type="checkbox">
+            <label for="">Dendro</label><br>
 
-            <div select>
-                escolha uma cor <br>
+            <input type="checkbox">
+            <label for="">Hydro</label><br>
 
-                <select name="" id="">
-                    <option value="ciano">ciano</option>
-                    <option value="magenta">magenta</option>
-                    <option value="amarelo">amarelo</option>
-                </select>
-            </div><br>
+            <input type="checkbox">
+            <label for="">Pyro</label><br>
 
-            <div datalist>
-                qual a resposta? <br>
+            <input type="checkbox">
+            <label for="">Cryo</label>
+        </fieldset><br>
 
-                <input type="text" list="busca" >
-                <datalist id="busca">
-                    <option value="metal"></option>
-                    <option value="rock"></option>
-                    <option value="poluição"></option>
-                    <option value="barulho"></option>
-                </datalist>
-            </div>
+        <!-- range - barra de puxar -->
+        <fieldset>
+            <legend>Distancia:</legend>
+            0km<input type="range">100km
+        </fieldset><br>
 
-        <div button>
-            <input type="button" value="enviar">
-        </div>
-    </div>
+        <!-- seleções -->
+        <fieldset>
+            <legend>Arconte:</legend>
+            <select name="" id="">
+                <option value="Venti">Venti</option>
+                <option value="ZhongLi">ZhongLi</option>
+                <option value="Raiden">Raiden</option>
+                <option value="Nahida">Nahida</option>
+                <option value="Furina">Furina</option>
+                <option value="Bennet">Bennet</option>
+            </select>
+        </fieldset><br>
+        
+        <!-- datalist - pesquisa de seleção -->
+        <fieldset>
+            <legend>Função:</legend>
+            <input type="text" list="busca">
+            <datalist id="busca">
+                <option value="dps"></option>
+                <option value="supporte"></option>
+                <option value="healer"></option>
+                <option value="sub dps"></option>
+            </datalist>
+        </fieldset>
 
+        <br><br>
+        
+        <!-- textarea - para criar caixas longas de texto -->
+        <textarea cols="30" rows="10"></textarea><br>
+
+        <!-- botão - é um botão -->
+        <input type="submit" value="enviar">
+        
 </body>
 
 </html>
