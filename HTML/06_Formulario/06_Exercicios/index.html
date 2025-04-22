@@ -6,57 +6,87 @@
     <title>HTML 06 | Exercicio</title>
 </head>
 <body>
-  <h1>Formulário de Informações da Empresa</h1>
-  <form action="#" method="post">
-    
-    <label for="empresa">Nome da Empresa:</label><br>
-    <input type="text" id="empresa" name="empresa" required><br><br>
+    <h1>Formulrio de Informações da Empresa:</h1>
 
-    <label for="dataEntrada">Data de Entrada:</label><br>
-    <input type="date" id="dataEntrada" name="dataEntrada" required><br><br>
+    <form action="">
 
-    <label for="quantidadeFuncionarios">Quantidade de Funcionários:</label><br>
-    <input type="number" id="quantidadeFuncionarios" name="quantidadeFuncionarios" required><br><br>
+        <legend>Nome da Empresa:</legend> 
+        <input type="text" required><br><br>
 
-    <label for="salario">Salário:</label><br>
-    <input type="number" id="salario" name="salario" step="0.01" required><br><br>
+        <fieldset>
+            <legend>Data de Entrada:</legend>
+            <input type="date" required>
+        </fieldset><br>
 
-    <p>Está atualmente na empresa?</p>
-    <input type="radio" id="simEmpresa" name="aindaNaEmpresa" value="Sim" required>
-    <label for="simEmpresa">Sim</label><br>
-    <input type="radio" id="naoEmpresa" name="aindaNaEmpresa" value="Não">
-    <label for="naoEmpresa">Não</label><br><br>
+        <fieldset>
+            <legend>Quantidade de Funcionarios:</legend>
+            <input type="number" required>
+        </fieldset><br>
 
-    <p>Tipo de contratação:</p>
-    <input type="radio" id="clt" name="tipoContrato" value="CLT" required>
-    <label for="clt">CLT</label><br>
-    <input type="radio" id="pj" name="tipoContrato" value="PJ">
-    <label for="pj">PJ</label><br><br>
+        <fieldset>
+            <legend>Salário:</legend>
+            <input type="number" required><br>
+        </fieldset><br>
 
-    <label for="beneficios">Quais benefícios você recebe?</label><br>
-    <select id="beneficios" name="beneficios[]" multiple size="8" required>
-      <option value="Vale refeição">Vale refeição</option>
-      <option value="Vale alimentação">Vale alimentação</option>
-      <option value="Vale transporte">Vale transporte</option>
-      <option value="Academias">Academias</option>
-      <option value="PLR">PLR</option>
-      <option value="Plano de saúde"></option>
-      <option value="Plano odontológico">Plano odontológico</option>
-      <option value="Cesta básica">Cesta básica</option>
-      <option value="Day off">Day off</option>
-      <option value="Bolsa de estudos">Bolsa de estudos</option>
-      <option value="Licença maternidade/paternidade">Licença maternidade/paternidade</option>
-      <option value="Pet friendly">Pet friendly</option>
-      <option value="Empréstimo consignado">Empréstimo consignado</option>
-    </select><br><br>
+        <fieldset>
+            <legend>Ainda atua na empresa?</legend>
+            <input type="radio" name="radio">
+            <label for="">Sim</label><br>
+            <input type="radio" name="radio">
+            <label for="">Não</label>
+        </fieldset><br>
 
-    <label for="pros">Prós da Empresa:</label><br>
-    <textarea id="pros" name="pros" rows="4" cols="50" required></textarea><br><br>
+        <!-- contrato -->
+        <fieldset>
+            <legend>Tipo de Contrato:</legend>
+            <input type="radio" name="radio">
+            <label for="">Clt</label><br>
+            <input type="radio" name="radio">
+            <label for="">Pj</label><br>
+        </fieldset>
 
-    <label for="contras">Contras da Empresa:</label><br>
-    <textarea id="contras" name="contras" rows="4" cols="50" required></textarea><br><br>
+        <!-- beneficios -->
+        <fieldset>
+            <legend>Quais benefícios você recebe?</legend>
+            <input type="checkbox">
+            <label for="">Vale refeição</label><br>
 
-    <button type="submit">Enviar</button>
-  </form>
+            <input type="checkbox">
+            <label for="">Vale alimentação</label>
+
+            <input type="checkbox">
+            <label for="Vale transporte">Vale transporte</label>
+
+            <input type="checkbox">
+            <label for="Academia">Academia</label>
+
+            <input type="checkbox">
+            <label for="PLR">PLR</label>
+
+            <input type="checkbox">
+            <label for="Plano de saúde">Plano de saúde</label>
+
+            <input type="checkbox">
+            <label for="Plano odontológico">Plano odontológico</label>
+
+            <input type="checkbox">
+            <label for="Cesta básica">Cesta básica</label>
+            <label for="Day off">Day off</label>
+            <label for="Bolsa de estudos">Bolsa de estudos</label>
+            <label for="Licença maternidade/paternidade">Licença maternidade/paternidade</label>
+            <label for="Pet friendly">Pet friendly</label>
+            <label for="Empréstimo consignado">Empréstimo consignado</label>
+        </fieldset>
+
+        <label for="">Prós da Empresa:</label>
+        <textarea cols="4" rows="50"></textarea>
+
+        <label for="">Contras da Empresa:</label>
+        <textarea cols="4" rows="50"></textarea>
+
+        <button type="submit">Enviar</button>
+
+    </form>
+
 </body>
 </html>
