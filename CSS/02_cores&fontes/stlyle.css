@@ -1,0 +1,36 @@
+body {
+    font-family: "Cutive Mono", monospace;
+    font-size: 18px;
+}
+
+nav {
+    /* rgb - decimal*/
+    color: rgb(169, 62, 52);
+
+    /* hex code - hexadecimal */
+    background-color: #e0d4c2;
+}
+
+h1 {
+    font-family: "Arvo", serif;
+
+    /* grossura da linha */
+    font-weight: 100; 
+
+    /* sombras - valores em ordem: horizontal, vertical, raio (opicional), cor*/
+    text-shadow: 2px 3px #eceff2; 
+}
+
+.container-flex {
+    /* centralizar div - flexivel */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.basic-info {
+    font-style: italic;
+
+    /* espaço entre linhas */
+    line-height: 11px;
+}
