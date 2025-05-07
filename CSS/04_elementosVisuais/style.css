@@ -1,0 +1,6 @@
+#border {
+    border-width: 2px;
+    border-color: rgb(176, 221, 212);
+    border-style: dashed;
+    padding: 7px;
+}
