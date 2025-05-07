@@ -1,6 +1,21 @@
+body {
+    background-image: url("./inazuma.jpg");
+    background-attachment: fixed;
+    background-size: cover ;
+}
+
+body {
+    text-color: red;
+}
+
 #border {
     border-width: 2px;
     border-color: rgb(176, 221, 212);
     border-style: dashed;
     padding: 7px;
 }
+
+#img {
+    width: 200px;
+}
+
