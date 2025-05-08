@@ -1,11 +1,7 @@
 body {
-    background-image: url("./inazuma.jpg");
+    background-image: url("./310920eab05e470db486adf13fd14791_t.jpeg");
     background-attachment: fixed;
     background-size: cover ;
-}
-
-body {
-    text-color: red;
 }
 
 #border {
@@ -18,4 +14,3 @@ body {
 #img {
     width: 200px;
 }
-

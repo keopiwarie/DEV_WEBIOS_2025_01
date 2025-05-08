@@ -1,0 +1,33 @@
+
+
+#div1 {
+    border: 2px dashed #548674;
+    width: 400px;
+    left: auto;
+    padding: 7px;
+
+    margin-bottom: 5px;
+
+    display: flexbox;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+#div2 {
+    border: 2px dashed #548674;
+    width: 400px;
+    left: auto;
+    padding: 7px;
+
+    margin-top: 5px;
+
+    display: flexbox;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    width: 400px;
+    height: auto;
+}
