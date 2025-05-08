@@ -1,0 +1,24 @@
+body {
+   font-optical-sizing: auto;
+    font-weight: 700px;
+    font-size: 1rem;
+
+    background-color: #b3e9f3;
+}
+
+header {
+    background-color: #6590d1;
+    text-shadow: 3px 3px 3px #48789f;
+
+    display: flexbox;
+    text-align: center;
+}
+
+img {
+    width: 500px;
+    height: auto;
+}
+
+footer {
+    background-color: #48789f;
+}
