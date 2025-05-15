@@ -1,0 +1,100 @@
+* {
+    margin: auto;
+    width: 95%;
+}
+
+body {
+    font-family: "Inconsolata", monospace;
+}
+
+.Divs {
+    border: 2px solid black;
+
+    height: 500px;
+    margin: 25px;
+    padding: 2%;
+
+    clear: both;
+}
+
+#imgSmile {
+    width: 350px;
+    border-radius: 7px;
+
+    float: left;
+
+    transition: width 5s, height 5s, transform 5s;
+
+    margin-right: 50px;
+}
+
+#table {
+    width: 75%;
+    border: 1px none;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 5px;
+
+}
+
+td {
+    width: 50%;
+    border: 1px dashed;
+    padding: 10px;
+}
+
+/* #imgSmile:hover {
+    width: 10%;
+} */
+
+.diiv {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#pSmile:hover {
+    color: black;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+}
+
+#imgDeidara {
+    width: 800px;
+    border-radius: 7px;
+
+    float: right;
+
+    transition: opacity 0, 9s;
+}
+
+#imgDeidara:hover {
+    opacity: 0;
+}
+
+#pNaru::first-letter {
+    font-size: 50px;
+    color: darkorange;
+}
+
+#imgKratos {
+    width: 500px;
+    border-radius: 7px;
+
+    float: left;
+
+}
+
+#imgRedDead {
+    width: 465px;
+    border-radius: 7px;
+
+    float: right;
+}
+
+#imgX {
+    width: 300px;
+    margin-left: 14%;
+}
+
+#pSmile {
+    color: rgb(102, 7, 7);
+}
