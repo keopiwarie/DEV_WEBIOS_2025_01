@@ -1,0 +1,20 @@
+.iten {
+    /* tamanho e borda */
+    width: 100px;
+    height: 100px;
+    border: 1px dashed;
+    
+    /* margin */
+    margin: 10px;
+
+    /* texto centro */
+    text-align: center;
+}
+
+#container {
+    /* flexbox */
+    display: flex;
+
+    /* conteudo adapta a tela */
+    flex-wrap: wrap;
+}
